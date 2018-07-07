@@ -1,0 +1,27 @@
+body {
+    padding:0;
+    font-size: .875rem;
+}
+
+.navbar {
+    background: #495057!important;
+}
+
+.navbar-brand {
+    padding: .75rem;
+    font-size: 1rem;    
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 54px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+[role="main"] {
+    padding-top: 54px;
+}

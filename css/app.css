@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;    
+}
+body {
+    background: #f4f5f7;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;    
+}
+
+.content-body {
+    height: 100%;
+}
+
+.toplink {
+    color:white;
+    cursor: pointer;
+}
+
+.sidelink {
+    color:black;
+    cursor: pointer;
+}
+
+.sidelink:hover, .toplink:hover {
+    color:gray;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+.sidelink .fas {
+    width:20px;
+}
+
+input:required:invalid {
+    outline: none;
+}
+
+.btn-primary {
+    background: #1779ba;
+}
+
+.btn-primary:hover{
+    background:#14679e;
+}
