@@ -11,8 +11,27 @@ body {
     padding-bottom: 40px;    
 }
 
-.content-body {
+.content-body, .content-body > div {
     height: 100%;
+}
+
+.navbar {
+    background: #495057!important;
+}
+
+.navbar-brand {
+    padding: .75rem;
+    font-size: 1rem;    
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 64px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
 
 .toplink {
@@ -47,4 +66,13 @@ input:required:invalid {
 
 .btn-primary:hover{
     background:#14679e;
+}
+
+[role="main"] {
+    padding-top: 54px;
+    background: white;
+}
+
+main > div:first-child {
+    padding-top:10px;    
 }
